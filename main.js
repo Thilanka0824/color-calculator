@@ -39,7 +39,7 @@ if (choose === 1){
 
 const str = prompt("pick a color or two: ")
 
-// =====================CONSTRUCT========================
+// =====================DECONSTRUCT========================
 if (str.includes("purple")){
     console.log("purple is made by combining RED and BLUE")
 } else if (str.includes("orange")){
@@ -48,7 +48,7 @@ if (str.includes("purple")){
     console.log("green is made by combining BLUE and YELLOW")
 }
 
-// =====================DECONSTRUCT=====================
+// =====================CONSTRUCT=====================
 
 else if (str.includes("red blue") || str.includes("blue red")){ 
     console.log("red and blue combined make PURPLE") // this happens if 2 colors are picked
